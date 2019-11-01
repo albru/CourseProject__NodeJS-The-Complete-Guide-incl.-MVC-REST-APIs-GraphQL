@@ -10,6 +10,7 @@ const requestHandler = (req, res) => {
       "<body><form action='/message' method='POST'><input type='text' name='message'><button type='submit'/>Send</button></form></body>"
     );
     res.write("</html>");
+    return res.end();
   }
   if (url === "/message" && method === "POST") {
     const body = [];
@@ -31,7 +32,7 @@ const requestHandler = (req, res) => {
   res.write("<head><title>Enter Message</title></head>");
   res.write("<body><h1>NODE Q</h1></body>");
   res.write("</html>");
-  res.end(); 
+  res.end();
 };
 
 // module.exports = { handler: requestHandler, smth: "smth" };

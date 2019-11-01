@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albru/Practise__NodeJS-Course.git"
+  },
+  "author": "Alexandr Bryukhanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albru/Practise__NodeJS-Course/issues"
+  },
+  "homepage": "https://github.com/albru/Practise__NodeJS-Course#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
