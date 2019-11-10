@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
   "description": "Complete Node.js Guide",
   "main": "app.js",
@@ -8,21 +8,16 @@
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/albru/Practise__NodeJS-Course.git"
-  },
-  "author": "Alexandr Bryukhanov",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/albru/Practise__NodeJS-Course/issues"
-  },
-  "homepage": "https://github.com/albru/Practise__NodeJS-Course#readme",
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
